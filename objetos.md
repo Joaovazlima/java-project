@@ -1,33 +1,26 @@
-# BancoApp
+# Geometric Shapes Project
 
-Este projeto é uma aplicação bancária simples desenvolvida em Java, que demonstra o uso de POO (Programação Orientada a Objetos). A aplicação permite a criação de diferentes tipos de contas bancárias, depósitos, saques e a busca por contas existentes.
+Este projeto em Java foi desenvolvido para ilustrar conceitos de Programação Orientada a Objetos (POO), incluindo a utilização de classes, herança, encapsulamento e abstração. O programa permite a criação e manipulação de formas geométricas, como quadrados, retângulos, triângulos e circunferências.
 
 ## Funcionalidades
 
-- Criar contas bancárias de diferentes tipos:
-  - Conta Padrão
-  - Conta com Limite
-  - Conta Especial
-  - Conta de Estudante
-  - Conta Poupança
-- Depositar valores nas contas.
-- Sacar valores das contas, com tratamento de exceções para saques inválidos.
-- Buscar contas pelo número da conta.
+- Criação de diferentes formas geométricas.
+- Cálculo e exibição das áreas e perímetros dessas formas.
+- Estrutura de classes organizada e clara para facilitar a compreensão dos princípios de POO.
 
-## Estrutura do Projeto
+## Pré-requisitos
 
-- **Banco**: Classe principal que gerencia as contas bancárias.
-- **Conta**: Classe base que define a estrutura de uma conta bancária.
-- **ContaFactory**: Classe responsável por criar instâncias de diferentes tipos de contas.
-- **Tipos de Conta**: Classes que herdam de `Conta`, representando os diferentes tipos de conta (e.g., `ContaPadrao`, `ContaComLimite`, `ContaEspecial`, `ContaDeEstudante`, `ContaPoupanca`).
+Antes de executar o projeto, você precisará ter o seguinte instalado em seu sistema:
 
-## Como Executar
+- **Java JDK**: Certifique-se de ter o JDK (Java Development Kit) instalado. Você pode baixar a versão mais recente [aqui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ou usar um gerenciador de pacotes como SDKMAN! ou Homebrew (para macOS).
 
-Para executar o projeto, siga os passos abaixo:
+- **IDE ou Editor de Texto**: Você pode usar qualquer IDE de sua preferência, como IntelliJ IDEA, Eclipse, ou até mesmo um editor de texto simples como Visual Studio Code ou Notepad++.
 
-1. Certifique-se de ter o Java JDK instalado em sua máquina. Você pode baixar o JDK em [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ou usar uma versão OpenJDK.
-   
-2. Clone este repositório:
+## Como Rodar o Projeto
+
+### 1. Clonar o Repositório
+
+Primeiro, clone o repositório para a sua máquina local. Abra o terminal e execute o seguinte comando:
 
    ```bash
    https://github.com/Joaovazlima/java-project.git
