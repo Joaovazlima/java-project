@@ -30,3 +30,4 @@ Para executar o projeto, siga os passos abaixo:
 2. Clone este repositório:
 
    ```bash
+   https://github.com/Joaovazlima/java-project.git
